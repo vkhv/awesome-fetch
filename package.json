@@ -1,0 +1,14 @@
+{
+  "name": "awesome-fetch",
+  "version": "0.1.0",
+  "description": "Interface for request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladislav Khvostov",
+  "license": "WTFPL",
+  "dependencies": {
+    "json-fetch": "^7.3.0"
+  }
+}
