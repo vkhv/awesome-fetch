@@ -1,7 +1,7 @@
 import {IAwesomeFetch, FetchOptions, JsonFetchResponse} from './index.d'
 import jsonFetch  from 'json-fetch';
 
-class AwesomeFetch implements IAwesomeFetch {
+export default class AwesomeFetch implements IAwesomeFetch {
 	json(url: string, options: FetchOptions): Promise<JsonFetchResponse> {
 		return jsonFetch(url, options);
 	}
